@@ -1,5 +1,4 @@
-#define N 20 /* número máximo de elementos*/
-#define TAMANHO_PILHA 20
+#define N 20 /* nï¿½mero mï¿½ximo de elementos*/
 #include <stdio.h>
 #include "pilha.h"
 
@@ -16,10 +15,10 @@ Pilha* create(void){
 
 void push(Pilha *p, int e){
      if (p->topo == N - 1){ /* capacidade esgotada */
-        printf("A pilha está cheia");
+        printf("A pilha estï¿½ cheia");
         return;
      }
-     /* insere o elemento na próxima posição livre */
+     /* insere o elemento na prï¿½xima posiï¿½ï¿½o livre */
      p->elementos[++p->topo] = e;
 }
 
